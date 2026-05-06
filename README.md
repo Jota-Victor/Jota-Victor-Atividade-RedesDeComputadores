@@ -41,3 +41,13 @@ Cenário de Exemplo
 Ao executar a simulação com a sequência de pacotes 0, 3, 1, 2, o console demonstrará que o pacote 3 foi armazenado temporariamente enquanto os pacotes 1 e 2 eram aguardados
 . A entrega final ordenada resultará na frase: "Oi Giovanni tudo bem"
 .
+Limitações do Sistema
+A versão atual da simulação apresenta as seguintes restrições:
+Não simula a perda real de pacotes no meio físico
+.
+Não possui implementação de temporizadores (timeouts) de retransmissão
+.
+Não realiza verificação de corrupção de dados ou soma de verificação (checksum)
+.
+A comunicação é puramente lógica, sem o uso de sockets de rede reais
+.
