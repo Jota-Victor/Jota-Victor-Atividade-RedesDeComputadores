@@ -1,7 +1,7 @@
 # Jota-Victor-Atividade-RedesDeComputadores
 Atividade avaliativa feita em equipe com os seguintes membros: Joao Victor, Ronald, Lara, Giovani, Cainan e Pedro Saulo
 
-Descrição do Projeto
+
 O sistema utiliza a linguagem Python para emular o comportamento de um receptor de rede que lida com pacotes chegando fora de ordem
 . A implementação foca na lógica de aceitação de pacotes dentro de uma janela permitida e no armazenamento em buffer até que a sequência correta possa ser entregue ao usuário final
 .
